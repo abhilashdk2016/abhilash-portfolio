@@ -34,7 +34,9 @@ const Projects = () => {
           description="A feature rich Jira app built with Next.js with authentication, user and product management"
           link='http://jira-omega.vercel.app' github='https://github.com/abhilashdk2016/jira' 
         />
-        <ProjectCard
+      </div>
+      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 mt-10">
+      <ProjectCard
           src="/form-builder.png"
           title="Form Builder"
           description="Build a drag and drop form builder using Next JS 15, Clerk and Postgres"
@@ -47,8 +49,6 @@ const Projects = () => {
 was used to for Creating and Managing Government Forms by Solicitors and Clients in UK. UI is developed using ReactJS and Redux and deployed to Amazon S3 as static sites.
 • C# API’s are used to Digitally Submit the forms to Government Gateways."
         />
-      </div>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 mt-10">
         <ProjectCard
           src="/glaxy.png"
           title="Microservice App in Golang"
