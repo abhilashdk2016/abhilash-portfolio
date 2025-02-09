@@ -17,6 +17,12 @@ const Projects = () => {
           description="My Portfoilio Website developed using Next JS & Framer Motion"
         />
         <ProjectCard
+          src="/kanban_cursorai.png"
+          title="Kanban Board"
+          description="Built a simple Kanban Board using Cursor and Claude 3.5 Sonnet. Simple features like creating/editing/deleting a task, assigning a task to users and moving the task to different columns was achived using Composer and few manual edit s to the code"
+          github='https://github.com/abhilashdk2016/kanban-cursorai'
+        />
+        <ProjectCard
           src="/uptimer.png"
           title="Monitor Services"
           description="Uptimer is a project that monitors services like HTPP, MongoDB, TCP and SSL. Backend server is built using Apollo GraphQL which interacts with Postgres Database. Client side is built using Next JS. Features include creating a new monitor, pausing/deleting/edit an existing monitor."
