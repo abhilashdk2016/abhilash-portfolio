@@ -35,6 +35,12 @@ const Projects = () => {
           link='http://jira-omega.vercel.app' github='https://github.com/abhilashdk2016/jira' 
         />
         <ProjectCard
+          src="/form-builder.png"
+          title="Form Builder"
+          description="Build a drag and drop form builder using Next JS 15, Clerk and Postgres"
+          link='https://form-builder-sigma-nine.vercel.app' github='https://github.com/abhilashdk2016/form-builder' 
+        />
+        <ProjectCard
           src="/glaxy.png"
           title="Legal Forms"
           description="A Cloud based React App that was developed to replace the old Desktop Application which
