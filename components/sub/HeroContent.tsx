@@ -36,12 +36,6 @@ const HeroContent = () => {
                 I'm a A Frontend Heavy Full Stack developer  who specializes in building and maintaining the user-facing parts of web applications (frontend) while also possessing the skills to work on the server-side (backend) components. I am experienced in backend development, capable of handling server-side logic, databases, and APIs using languages and frameworks such as Node.js and Golang.
 
             </motion.p>
-            <motion.a
-                variants={slideInFromLeft(1)}
-                className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
-            >
-                Learn More
-            </motion.a>
         </div>
         <motion.div
             variants={slideInFromRight(0.8)}
